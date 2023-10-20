@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mohsin's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js";> </script>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
+</head>
+<body>
+    <nav id="navigation" class="primary-navigation">
+        <ul id="navbar" class="nav-list">
+            <li><a onclick="closeForm()" href="#section-1">Home</a></li>
+            <li><a onclick="closeForm()" href="#section-2">About</a></li>
+            <li><a onclick="closeForm()" href="#section-3">Projects</a></li>
+            <li><a onclick="closeForm()" href="#section-4">Contacts</a></li>
+        </ul>
+    </nav>
+    <object id="myResume" class="resume"
+        data= "Mohsin Malik - Resume.pdf" 
+        width="100%"
+        height="100%">
+        
+    </object>
+    <div class="top">
+        <div class="logo">
+            <p class="logo-inner" color="white">MM</p>
+        </div>
+        <h1 class="t2">Mohsin Malik's Portfolio </h1>
+    </div>
+
+    <!-- button testing
+    <div class="right">
+        <button class="contactButton" onclick="doSomething()">Contacts</button>
+    </div>
+    -->
+    <hr color="orange">
+    <section id="section-1" class="bodyLayout1 layer3">
+        <div style="width: 50%; height: 100%; float:left; color:blanchedalmond; text-align:center;">
+            <h2 class="fs-800" style="color:rgb(255, 255, 255); text-align:center; margin-bottom: 10px;font-size: 5.2vw;  margin-top: 15%;">Welcome to My Portfolio!
+            </h2>
+            <h3 style="width:90%; color:rgb(255, 255, 255);  -webkit-text-stroke: 0.2px black; font-size: 2.2vw; margin-left: 1.2vw;">
+                Recent Graduate Dedicated to Further my Path as an Expert Programmer
+            </h3>
+            <br>
+            <p style="width:95%; font-size: 1.5vw; margin-left: 1.2vw;">
+                8+ years of ongoing coding expertise, an honours degree in computer science, and tons of personal projects showcasing my experience with a variety of software/programs/languages! 
+            </p>
+            <br>
+
+            <button class="button button1" onclick="openForm()">Check my Resume!</button>
+            <!-- <button class="button button2">Hire me!</button>
+            -->
+        </div>
+        <div style="margin-left: 50%; height: 100%; text-align: center; ">
+            <img style="margin-top: 15%;  max-width: 80%;height: auto;width: auto\9;" id="homeImage" src="homeImage2.png" >
+        </div>
+    </section>
+
+    <div class="spacer layer1" style="transform: scaleY(-1.1);"></div>
+    <div class="spacer layer1" style="z-index: -1;"></div>
+
+    <section id="section-2" class="block2">
+        <div style="padding-bottom: 30px; display:flexbox;">
+            <h2 class="fs-8002" style="text-align: left; margin-bottom: 10px; margin-left: 30px; font-size: 340%;">
+                Skills
+                <p style="font-size: 40%; margin-left: 10px;">Coding Languages, Frameworks, OS I'm' Proficient With!</p>
+            </h2>
+            <div class="skills">
+                <h3 style="text-align: left; font-size: 150%;">Python <br> Java <br> C/C++ <br> Javascript <br> HTML/CSS <br> PHP</h3>
+                <h3 style="text-align: left; font-size: 150%; margin-left: 100px;"> SQL <br> Django <br> React <br> Node.js <br> Window/Linux/Android <br> Git</h3>
+            </div>
+
+            <h2 class="fs-8002" style="text-align: left; margin-bottom: 10px; margin-left: 30px; font-size: 340%;">
+                Other Acquired Strengths
+                <p style="font-size: 40%; margin-left: 10px;">Programs, Engines, Development Experiences, etc!</p>
+                <p style="font-size: 30%; margin-left: 10px;">Showcasing my 8+ years of ongoing coding experience!</p>
+            </h2>
+
+            <div class="skills">
+                <h3 style="text-align: center; font-size: 150%; word-spacing: 1.5rem;"> Backend Project-Lead Ecommerce AI System-Programming Designing:Hardware/Software/Network/Database AndroidStudio TwitterAPI Godot Unity JSON MYSQL VisualStudio VBA</h3>
+                <!-- extra throwaway text
+                <h3 style="text-align: left; font-size: 150%; margin-left: 100px;"> SQL <br> Django <br> React <br> Node.js <br> Window/Linux/Android <br> Git</h3>
+                -->
+            </div>
+            <h2 class="fs-8002" style="text-align: center; margin-bottom: 10px; margin-top:5%; margin-left: 30px; font-size: 340%;">
+                Wilfrid Laurier University
+                <p style="font-size: 40%; margin-left: 10px;">Honours Bsc Major in Computer Science</p>
+                <p style="font-size: 30%; margin-left: 10px;">Recent graduate (June 13 2023)</p>
+            </h2>
+            <div style="text-align: center; ">
+                <img style="margin-top: 5%;  margin-bottom: 5%; max-width: 80%;height: auto;width: auto\9;" id="homeImage" src="WLUImage.png" >
+            </div>
+            <h2 class="fs-8002" style="text-align: center; margin-bottom: 10px; margin-left: 30px; font-size: 340%;">
+                About My Education
+                <p style="font-size: 40%; margin-left: 10px;">University, and degree information</p>
+            </h2>
+            <br>
+                <p style="margin-left: 2%;">
+                    As a recent graduate of Wilfrid Laurier University, I've learned valuable knowledge pertaining 
+                    to the study of computer science and experienced advanced ways to apply my knowledge in 
+                    academic projects
+                </p>
+                <br>
+                <h3>Some notable courses include:</h3>
+                <br>
+                    <dl style="margin-left: 2%;">
+                        <dt style="font-size: 120%;">Computer Data Structures 1 & 2</dt>
+                        <dd style="margin-left: 2%;">- gave a deep understanding of vital data structures to know and their various applications</dd>
+                        <dt style="font-size: 120%;">Software Engineering</dt>
+                        <dd style="margin-left: 2%;">- learned how to approach creating a high scaled coding project</dd>
+                        <dd style="margin-left: 2%;">- experience working with a big group of coders to develop software from the ground up</dd>
+                        <dt style="font-size: 120%;">Object oriented Programming</dt>
+                        <dd style="margin-left: 2%;">- understanding a core coding concept</dd>
+                        <dd style="margin-left: 2%;">- had prior learned this concept in high school before university and implemented my own personal for fun games at the time using OOP in java</dd>
+                        <dt style="font-size: 120%;">System Programing & Operating Systems</dt>
+                        <dd style="margin-left: 2%;">- provided experience with system level coding and linux programming</dd>
+                        <dt style="font-size: 120%;">Artificial Intelligence, Computer Networks</dt>
+                        <dd style="margin-left: 2%;">- exploration into relevant areas of computer science in the modern era, providing for a proper understanding of AI
+                            and deep knowledge on how both AI and computer networks truly function</dd>
+                        <dd style="margin-left: 2%;">- also created multiple projects both individual and in groups applying my knowledge on Ai and computer networks</dd>
+                        <br>
+                        <dt >Other notable courses include: Applied Cryptography, Windows App Programming, Android App Programming, Data Visualization, E-commerce, Computer Algorithm Analysis, Database 1</dt>
+                        <dd></dd>
+                      </dl>
+                    
+                <br>
+
+        </div>
+    </section>
+
+    <div class="spacer layer1" style="transform: scaleY(-1.1);"></div>
+    <div class="spacer layer1"></div>
+
+    <section id="section-3" class="center" style="padding-bottom: 20px;">
+        <h2 class="fs-8002" style="text-align:center; margin:10px;font-size: 200%;">Projects</h2>
+        <h5 class="fs-8002" style="text-align:center; margin:10px; font-size: 80%;">Click For Details!</h5>
+        <div class="containers">
+            <div class="imgContainer">
+                <a href="https://github.com/Mohsin230/stockEye" target="_blank" title="Check out my Github!">
+                    <img src="stockeyeImage.jpg" width="250px">
+                    <h3 class="textOver">StockEye</h3>
+                </a>
+            </div>
+            <a class="imgContainer" href="https://github.com/Mohsin230/javaAI_diagnosis" target="_blank"
+                title="Check out my Github!">
+                <img src="JavaAIImage.jpeg" width="250px" height="133px">
+                <h3 class="textOver">Java AI Diagnosis</h3>
+            </a>
+
+            <a class="imgContainer" href="https://github.com/Mohsin230/CompNetworkProject" target="_blank"
+                title="Check out my Github!">
+                <img src="compNetworkImage.jpg" width="250px" height="133px">
+                <h3 class="textOver">Networks Program</h3>
+            </a>
+
+            <a class="imgContainer" href="https://github.com/Mohsin230/CryptoAssignment1" target="_blank"
+                title="Check out my Github!">
+                <img src="CryptographyImage.jpg" width="250px" height="133px">
+                <h3 class="textOver" style="font-size: 100%;">Cryptography Showcase<br>Encryption/Decryption</h3>
+            </a>
+        </div>
+        <br>
+        <h5 class="fs-8002" style="text-align:center; margin:10px; font-size: 80%;">Will be updated with further projects over time...</h5>
+        <h2 class="fs-8002" style="text-align:center; margin-top:5%; margin-bottom:5%; font-size: 200%;">Showcase of One of my Ecommerce Sites</h2>
+        <div style="text-align: center;">
+            <video width="500px" height="300px" controls="controls">
+                <source src="EcomerceDemo.mkv" type="video/mp4" />
+            </video>
+        </div>
+    </section>
+
+    <div class="spacer layer1" style="transform: scaleY(-1.1);"></div>
+    <div class="spacer layer1"></div>
+
+    <section id="section-4" class="block2" style="padding-bottom: 20px;">
+        <div>
+            <h2 class="fs-8002" style="text-align: center;">Contacts</h2>
+            <p style="text-align: center;">
+                Full name: Mohsin Malik
+                <br>gmail: raremaple230@gmail.com
+                <br>university email: mali7370@mylaurier.ca 
+            </p>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/mohsin-malik-b874a0202" target="_blank"
+                    title="Check my Linkedin Page!">
+                    <img src="LinkedinIcon.png" width="50px">
+                </a>
+    
+                <br>
+                <a href="https://github.com/Mohsin230" target="_blank" title="Check out my Github!">
+                    <img src="githubicon2.png" width="50px">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer layer1" style="transform: scaleY(-1.1);"></div>
+
+    <div class="bodyLayout1 layer2" style="text-align: center;">
+<!--
+        <div class="links">
+            <h3 class="t2">Contacts</h3>
+        </div>
+        <br>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/mohsin-malik-b874a0202" target="_blank"
+                title="Check my Linkedin Page!">
+                <img src="LinkedinIcon.png" width="50px">
+            </a>
+
+            <br>
+            <a href="https://github.com/Mohsin230" target="_blank" title="Check out my Github!">
+                <img src="githubicon2.png" width="50px">
+            </a>
+        </div>
+
+
+    <br>
+    <h2>Send e-mail to raremaple230@gmail.com:</h2>
+
+    <form action="mailto:raremaple230@gmail.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    subject:<br>
+    <input type="text" name="subject" size="50"><br><br>
+    Message:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+-->
+
+    </div>
+
+
+</body>
+
+</html>

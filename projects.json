@@ -1,0 +1,96 @@
+{
+    "projects": [
+      {
+        "name": "stockeye",
+        "img": "Images\\stockeyeImage.jpg",
+        "gitLink": "https://github.com/Mohsin230/stockEye"
+      },
+      {
+        "name": "Java Ai Diagnosis",
+        "img": "Images\\JavaAIImage.jpeg",
+        "gitLink": "https://github.com/Mohsin230/javaAI_diagnosis"
+      },      
+      {
+        "name": "Networks Program",
+        "img": "Images\\compNetworkImage.jpg",
+        "gitLink": "https://github.com/Mohsin230/CompNetworkProject"
+      }, 
+      {
+        "name": "Cryptography Showcase - Encryption/Decryption",
+        "img": "Images\\CryptographyImage.jpg",
+        "gitLink": "https://github.com/Mohsin230/CryptoAssignment1"
+      },
+      {
+        "name": "3D PS1 Website",
+        "img": "Images\\PS1Logo.jpg",
+        "gitLink": "https://github.com/Mohsin230/ps1Experience"
+      },
+      {
+        "name": "AI Image Classifier",
+        "img": "Images\\AiClassify.png",
+        "gitLink": "https://github.com/Mohsin230/image-Ai-Classifier"
+      },
+      {
+        "name": "Pokemon Reddit Sentiment Analysis",
+        "img": "Images\\PokemonSentiment.png",
+        "gitLink": "https://github.com/Mohsin230/Pokemon-Reddit-Sentiment"
+      },
+      {
+        "name": "Covid Data Visualization",
+        "img": "Images\\covidDataVis.jpeg",
+        "gitLink": "https://github.com/Mohsin230/covidDataVisual"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Backend",
+        "img": "homeImage2.png",
+        "description": "Worked within big groups<br>Role of Implementing API functionality"
+      },
+      {
+        "name":"Ecommerce",
+        "img": "homeImage2.png",
+        "description": "2 e-commerce sites<br>users can buy items"
+      },
+      {
+        "name":"AI",
+        "img": "homeImage2.png",
+        "description": "Image Classification<br>Open Ai API<br>Game CPU implementation"
+      },
+      {
+        "name":"System Programming",
+        "img": "homeImage2.png",
+        "description": "Linux + Windows system programming, including academic work"
+      },
+      {
+        "name":"Software & Hardware Design",
+        "img": "homeImage2.png",
+        "description": "Projects made using physical hardware to run coded software"
+      },
+      {
+        "name":"Network & Database Design",
+        "img": "homeImage2.png",
+        "description": "Client to server.<br>academic work.<br>TCP"
+      },
+      {
+        "name":"Godot",
+        "img": "homeImage2.png",
+        "description": "Active game coder, including a turn based rpg and a top down 2d action game"
+      },
+      {
+        "name":"Android Studio",
+        "img": "homeImage2.png",
+        "description": "academic work, running code to make android apps (weather app, user logins, language prefs)"
+      },
+      {
+        "name":"Project Lead",
+        "img": "homeImage2.png",
+        "description": "Handeled leadership roles for big academic group projects that involved fullstack development"
+      },
+      {
+        "name":"API Usage",
+        "img": "homeImage2.png",
+        "description": "Actively use API's<br>twitter, reddit, pokeAPI, jikkan, openAI<br>academic and personal projects"
+      }
+    ]
+  }

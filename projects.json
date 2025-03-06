@@ -3,7 +3,7 @@
       {
         "name": "stockeye",
         "img": "Images\\stockeyeImage.jpg",
-        "gitLink": "https://github.com/Mohsin230/stockEye"
+        "gitLink": "https://github.com/Mohsin230/stockEye-Project"
       },
       {
         "name": "Java Ai Diagnosis",
@@ -48,6 +48,11 @@
         "description": "Worked within big groups<br>Role of Implementing API functionality"
       },
       {
+        "name":"API Usage",
+        "img": "homeImage2.png",
+        "description": "Actively use API's<br>twitter, reddit, pokeAPI, jikkan, openAI<br>academic and personal projects"
+      },
+      {
         "name":"Ecommerce",
         "img": "homeImage2.png",
         "description": "2 e-commerce sites<br>users can buy items"
@@ -86,11 +91,6 @@
         "name":"Project Lead",
         "img": "homeImage2.png",
         "description": "Handeled leadership roles for big academic group projects that involved fullstack development"
-      },
-      {
-        "name":"API Usage",
-        "img": "homeImage2.png",
-        "description": "Actively use API's<br>twitter, reddit, pokeAPI, jikkan, openAI<br>academic and personal projects"
       }
     ]
   }

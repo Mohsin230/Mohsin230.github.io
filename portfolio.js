@@ -113,12 +113,14 @@ function init(){
     }
     const cards1 = document.querySelectorAll('.card');
     const cards2 = document.querySelectorAll('.card2');
+    const cards2Area = document.getElementById('myCards');
     const overlayCard = document.querySelectorAll('.overlayCard');
 
     cards1.forEach(card =>{
         console.log(card)
         observer.observe(card)
     })
+    //observer.observe(cards2Area);
     cards2.forEach(card =>{
         observer.observe(card)
     })
@@ -135,7 +137,7 @@ function addCard(data, i){
     var cardLocation = document.getElementById('myCards');
     var div = document.createElement("div");
     div.setAttribute("class", "card2");
-    div.style.position = "relative";
+    //div.style.position = "relative";
 
 
     var elem = document.createElement("img");
@@ -146,27 +148,36 @@ function addCard(data, i){
 
     var text = document.createElement("h3");
     text.innerHTML = data['name']
+    var text2 = document.createElement("h3");
+    text2.innerHTML = data['description']
+    text2.hidden = true;
 
     var description = document.createElement("h3");
     description.innerHTML = data['description']
 
     //div.style.left = t1.concat("",t2);
-    div.style.zIndex = 999 - i;
-    div.style.width = "25vw";
+    //div.style.zIndex = 999 - i;
+    //div.style.width = "100%";
+    //div.style.height = "100%";
     //div.addEventListener("click", toggleCard);
 
     div.addEventListener("mouseenter" , () => {
-        text.innerHTML = data['description']
+        //text.innerHTML = data['description'];
+        text.hidden = true;
+        text2.hidden = false
         elem.hidden = true;
     })
 
     div.addEventListener("mouseleave" , () => {
-        text.innerHTML = data['name']
+        //text.innerHTML = data['name'];
+        text.hidden = false;
+        text2.hidden = true;
         elem.hidden = false;
     })
 
     div.append(elem);
     div.append(text);
+    div.append(text2)
     cardLocation.append(div);
 
 }

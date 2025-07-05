@@ -60,7 +60,7 @@
       {
         "name":"AI",
         "img": "homeImage2.png",
-        "description": "Image Classification<br>Open Ai API<br>Game CPU implementation"
+        "description": "Image classification<br>Open Ai API<br>Game CPU implementation<br>Sentiment analysis"
       },
       {
         "name":"System Programming",

@@ -233,7 +233,7 @@ button:hover:not(#pushButton){
     -o-background-size: cover;
     background-size: cover;
     z-index: 100;
-    height: 100vh;
+    height: max(100vh,70rem);
 }
 .layer2{
     background-image: url('./layer2.svg');
@@ -286,10 +286,11 @@ button:hover:not(#pushButton){
     display: block;
     padding: 12px 42px;
     border-radius: 12px;
-    font-size: 1.25rem;
+    font-size: max(2.5vh,1.25rem);
     background: hsl(345deg 100% 47%);
     color: white;
     transform: translateY(-6px);
+    text-align: center;
   }
 
   .pushable:active .front {

@@ -225,16 +225,15 @@ button:hover:not(#pushButton){
 .bodyLayout1{
     aspect-ratio: 960/540;
     width: 100vw;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     -webkit-background-style: cover;
     -moz-background-style: cover;
     -o-background-size: cover;
     background-size: cover;
     z-index: 100;
-    height: max(100vh,70rem);
-    height: max(100dvh,70rem);
+    height: 70rem;
 }
 .layer2{
     background-image: url('./layer2.svg');
@@ -441,3 +440,12 @@ button:hover:not(#pushButton){
     opacity: 1;
     transition: opacity 1s ease-in, transform 0.7s ease-in;    
 }
+
+/*@media only screen and (max-width: 800px) {
+  .bodyLayout1 {
+    background-attachment: scroll;
+  }
+  .parallaxWLU{
+    background-attachment: scroll;
+  }
+}*/

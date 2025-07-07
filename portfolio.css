@@ -234,7 +234,7 @@ button:hover:not(#pushButton){
     -o-background-size: cover;
     background-size: cover;
     z-index: 100;
-    height: max(100vh,70rem);
+    height: 100vh;
 }
 .layer2{
     background-image: url('./layer2.svg');

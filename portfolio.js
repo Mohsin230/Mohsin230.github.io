@@ -29,6 +29,12 @@ const observer = new IntersectionObserver(entries => {
     threshold: 0.1,
 })
 
+function setRealVH() {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+setRealVH();
+window.addEventListener('resize', setRealVH);
 
 /*
 function checkCards(){

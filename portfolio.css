@@ -12,7 +12,6 @@ html {
 }
 body{
     width: 100vw;
-    height: calc(var(--vh, 1vh) * 100);
 }
 .primary-navigation {
     position: sticky;
@@ -234,7 +233,8 @@ button:hover:not(#pushButton){
     -o-background-size: cover;
     background-size: cover;
     z-index: 100;
-    height: calc(var(--vh, 1vh) * 100);
+    height: max(100vh,70rem);
+    height: max(100dvh,70rem);
 }
 .layer2{
     background-image: url('./layer2.svg');
